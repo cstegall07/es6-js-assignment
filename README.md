@@ -1,5 +1,7 @@
 # ES6 JS Assignment
 
+I have created a JS file to practice various ES6 methods. If you click the dropdown arrows you can view code snippets and the problem I am trying to solve. This is a [link](https://cstegall07.github.io/es6-js-assignment/) to the website for problems 4 & 5.
+
 <details> <summary> Question 1 </summary> 
 
  ## Question 1 Solution
