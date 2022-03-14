@@ -20,7 +20,7 @@ class Employee {
     }
 }
 ```
-Question 1 Solution can be found on Line 1 - 10 in the [JavaScript File](/main.js)
+Question 1 Solution can be found on lines 1 - 10 in the [JavaScript File](/main.js)
 
 ## Question 2
 
@@ -53,7 +53,7 @@ constructor(name, idNumber, permissions, storeNumber, changePermissions, listEmp
 }
 ```
 
-Question 2 Solution can be found on Line 13 - 20 in the [JavaScript File](/main.js)
+Question 2 Solution can be found on lines 13 - 20 in the [JavaScript File](/main.js)
 
 ## Question 3
 
@@ -67,7 +67,7 @@ const [fin, est, sw, den, nor] = countries;
 console.log(countries);
 ```
 
-Question 3 Solution can be found on Line 24 - 26 in the [JavaScript File](/main.js)
+Question 3 Solution can be found on lines 24 - 26 in the [JavaScript File](/main.js)
 
 ## Question 4
 
@@ -98,3 +98,28 @@ function myRectangle({width, height, area, perimeter}){
     document.getElementById("demo").innerHTML = message;
 }
 ```
+
+
+Question 4 Solution can be found on lines 35 - 45 in the [JavaScript File](/main.js)
+
+## Question 5
+
+> **Using the spread operator, the Array .map() method, and at least one arrow function to
+place the values from evens and odds into an array and display the values on a html
+screen in numerical order.**
+> 
+> const evens = [0, 2, 4, 6, 8, 10]
+> 
+> const odds = [1, 3, 5, 7, 9]
+
+```javascript
+const evens = [0, 2, 4, 6, 8, 10];
+const odds = [1, 3, 5, 7, 9];
+let numbers = [...evens, ...odds];
+document.getElementById("unsortedNumbers").innerHTML = numbers
+let sorted = numbers.sort((a,b) => a-b)
+const sortNumbers = numbers.map(() => document.getElementById("sortedNumbers").innerHTML = sorted)
+```
+
+
+Question 5 Solution can be found on lines 53 - 59 in the [JavaScript File](/main.js)
