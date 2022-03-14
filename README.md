@@ -1,7 +1,9 @@
 # ES6 JS Assignment
 
-## Question 1
+<details> <summary> Question 1 </summary> 
 
+ ## Question 1 Solution
+ 
  > **Create an Employee class.**
  > 
 > An employee should have
@@ -21,8 +23,11 @@ class Employee {
 }
 ```
 Question 1 Solution can be found on lines 1 - 10 in the [JavaScript File](/main.js)
+ </details>
 
-## Question 2
+<details> <summary> Question 2 </summary> 
+ 
+## Question 2 Solution
 
 > **Create a Manager class.**
 > 
@@ -54,8 +59,11 @@ constructor(name, idNumber, permissions, storeNumber, changePermissions, listEmp
 ```
 
 Question 2 Solution can be found on lines 13 - 20 in the [JavaScript File](/main.js)
+ </details>
 
-## Question 3
+<details> <summary> Question 3 </summary> 
+ 
+## Question 3 Solution
 
 > **Destructure and assign the elements of countries array to fin, est, sw, den, nor**
 > 
@@ -68,8 +76,11 @@ console.log(countries);
 ```
 
 Question 3 Solution can be found on lines 24 - 26 in the [JavaScript File](/main.js)
+ </details>
 
-## Question 4
+<details> <summary> Question 4 </summary>
+ 
+## Question 4 Solution
 
 >**Destructure the rectangle object by its properties.**
 >
@@ -101,8 +112,11 @@ function myRectangle({width, height, area, perimeter}){
 
 
 Question 4 Solution can be found on lines 35 - 45 in the [JavaScript File](/main.js)
+ </details>
 
-## Question 5
+<details> <summary> Question 5 </summary> 
+ 
+## Question 5 Solution
 
 > **Using the spread operator, the Array .map() method, and at least one arrow function to
 place the values from evens and odds into an array and display the values on a html
@@ -123,3 +137,4 @@ const sortNumbers = numbers.map(() => document.getElementById("sortedNumbers").i
 
 
 Question 5 Solution can be found on lines 53 - 59 in the [JavaScript File](/main.js)
+ </details>
