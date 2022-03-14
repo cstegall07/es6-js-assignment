@@ -8,11 +8,15 @@ I have created a JS file to practice various ES6 methods. If you click the dropd
  
  > **Create an Employee class.**
  > 
-> An employee should have
- >  * name
- > * Id number
- >  * List of permissions that they can perform on the company website
- >  * Store number for the store where they work
+> ● An employee should have
+>
+> &nbsp; &nbsp; &nbsp; &nbsp; ○ name
+>
+> &nbsp; &nbsp; &nbsp; &nbsp; ○ Id number
+>
+> &nbsp; &nbsp; &nbsp; &nbsp; ○ List of permissions that they can perform on the company website
+>
+> &nbsp; &nbsp; &nbsp; &nbsp; ○ Store number for the store where they work
 
 ```javascript
 class Employee {
