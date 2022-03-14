@@ -53,7 +53,7 @@ function myRectangle({width, height, area, perimeter}){
 const evens = [0, 2, 4, 6, 8, 10];
 const odds = [1, 3, 5, 7, 9];
 let numbers = [...evens, ...odds];
-document.getElementById("unsortedNumbers").innerHTML = numbers
+document.getElementById("unsortedNumbers").innerHTML = "Unosrted Numbers: " + numbers
 let sorted = numbers.sort((a,b) => a-b)
-const sortNumbers = numbers.map(() => document.getElementById("sortedNumbers").innerHTML = sorted)
+const sortNumbers = numbers.map(() => document.getElementById("sortedNumbers").innerHTML = "Sorted Numbers: " + sorted)
 console.log(sortNumbers);
